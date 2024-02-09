@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24">
+    <path d="m80-160 400-640 400 640H80Zm144-80h512L480-650 224-240Zm256-205Z"/>
+    <defs>
+        <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%"   stop-color="#05a"/>
+            <stop offset="100%" stop-color="#0a5"/>
+        </linearGradient>
+    </defs>
+    <style type="text/css">
+        svg{fill:url(#gradient)}
+    </style>
+</svg>

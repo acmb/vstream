@@ -1,0 +1,9 @@
+.projects {
+    align-items: center;
+}
+
+/* @media only screen and (max-width: 500px) {
+    .projects >  > div > div:first-child {
+        margin: 0 !important;
+    }
+} */

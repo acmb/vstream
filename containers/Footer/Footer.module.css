@@ -1,0 +1,119 @@
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg-color-grey-3);
+}
+
+.footer > div {
+  width: 100%;
+}
+
+.footer > div > div > div {
+  justify-content: space-between;
+}
+
+.footer > div > div > div:first-child {
+  padding-right: 3em;
+}
+
+.footer > div > div > div:last-child {
+  padding-left: 3em;
+}
+
+.footer > div > div > div:last-child > div:last-child {
+  justify-content: flex-end;
+}
+
+.footer > div > div > div:last-child > div:last-child > div > div {
+  justify-content: flex-end;
+}
+
+.footer > div > div:first-child > div:last-child > div:nth-child(2) {
+  margin: 2.5em 0;
+}
+
+.footer > div > div:first-child > div:last-child > div:nth-child(2) > div {
+ justify-content: center;
+}
+
+.footer > div > div:first-child > div:last-child > div:nth-child(2) > div > div {
+  margin: 0.5em;
+ }
+
+ .footer > div > div:first-child > div:last-child > div:last-child > div > div:first-child {
+  margin-bottom: 1em;
+}
+
+.footer blockquote {
+  margin: 0;
+}
+
+.footer_bottom {
+  padding-top: var(--margin-height);
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--bg-color-grey-4);
+}
+
+.footer_bottom > div {
+  width: 25%;
+  align-items: center;
+}
+
+.footer_bottom > div:first-child {
+  align-items: flex-start;
+}
+
+.footer_bottom > div:last-child {
+  align-items: flex-end !important;
+  white-space: nowrap;
+}
+
+.logo {
+  height: 1em;
+}
+
+.location_row {
+  justify-content: flex-end;
+}
+
+.location_col {
+  font-weight: 200;
+}
+
+.globe_icon {
+  width: 20px !important;
+  filter: invert(1);
+  margin-right: 1em;
+}
+
+@media only screen and (max-width: 800px) {
+  .footer > div > div:first-child {
+      flex-direction: column;
+  }
+
+  .footer_bottom {
+    flex-direction: row !important;
+  }
+
+  .footer > div > div:first-child > div {
+    padding: 0;
+  }
+
+  .footer > div > div:first-child > div:last-child > div:first-child {
+    display: none;
+    margin-top: 10px;
+  }
+
+  .footer > div > div:first-child > div:last-child > div:nth-child(2) {
+    /* margin-top: 3em; */
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .footer > div > div:first-child > div:last-child > div:nth-child(2) {
+    margin-bottom: 2em;
+  }
+}

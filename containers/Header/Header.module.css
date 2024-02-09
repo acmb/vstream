@@ -1,0 +1,19 @@
+.header {
+    position: sticky;
+    top: 0;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+    background-color: var(--bg-color-grey-4);
+    background-color: rgba(22, 22, 22, 0.95);
+}
+
+.header > div:last-child > div {
+    justify-content: flex-end;
+}
+
+.title {
+    font-size: 1.1em;
+    justify-content: center;
+}
+

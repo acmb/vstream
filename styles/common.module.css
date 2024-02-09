@@ -1,0 +1,47 @@
+.wrapper {
+    padding: var(--margin-height) var(--margin-width);
+}
+
+.wrapper > div {
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .wrapper {
+        padding: var(--margin-height) calc(var(--margin-width)/2);
+    }
+}
+
+/*****************************************/
+.gradient_text {
+    background: var(--bg-color-gradient-0);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gradient_text_hover:hover {
+    cursor: pointer;
+    color: var(--color-grey-4);
+    background: var(--bg-color-gradient-0);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/*****************************************/
+.forest_text {
+    background-image: url('/banner_ai.png');
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/*****************************************/
+.container {
+    height: 100%;
+    margin-top: -5em;
+}
+.container a {
+    color: var(--color-grey-0);
+    white-space: nowrap;
+    text-transform: capitalize;
+}
+.container a:hover {
+    text-decoration: none;
+}
